@@ -1,8 +1,8 @@
 package helpers;
 
 import com.codeborne.selenide.Configuration;
-import org.aeonbits.owner.ConfigFactory;
 import config.WebDriverConfig;
+import org.aeonbits.owner.ConfigFactory;
 
 public class DriverHelper {
     private static final WebDriverConfig config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
